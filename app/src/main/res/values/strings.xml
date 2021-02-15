@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ML-challenge</string>
+    <string name="search_on_ML">Buscar en Mercado Libre</string>
+    <string name="price">$ %1$d</string>
+    <string name="results">%1$d resultados</string>
+    <string name="product">Producto</string>
+    <string name="product_state_new">Nuevo</string>
+    <string name="product_state_used">Usado</string>
+    <string name="pege_number_text">%1$d/%2$d</string>
+    <string name="installments_text">en %1$dx $%2$d</string>
+    <string name="free_shepping_text">Llega gratis el %1$s</string>
+    <string name="shepping_text">Llega el %1$s por $ %1$d</string>
+    <string name="official_store_text">Tienda oficial %1$s</string>
+    <string name="sold_by">Vendido por %1$s</string>
+    <string name="available_stock">Stock disponible</string>
+    <string name="last_unit">¡Ultima disponible!</string>
+    <string name="quantity_selector">Cantidad: 1 (%1$d disponibles)</string>
+    <string name="billing">Hace %1$s</string>
+    <string name="warrancy">%1$d meses de garantia de fabrica</string>
+    <string name="seller_address">%1$s, %2$s</string>
+    <string name="last_days_sales">Ventas en los ultimos %1$d dias</string>
+    <string name="ship_your_products_on_time">Despacha sus productos a tiempo</string>
+    <string name="not_ship_your_products_on_time">No despacha sus productos a tiempo</string>
+    <string name="attention_type">Brinda %2$s atención</string>
+</resources>

@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:backgroundTint="@color/white">
+
+    <include
+        android:id="@+id/action_bar_product_details"
+        layout="@layout/action_bar_product_details"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/action_bar_product_details">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/product_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="10dp"
+                android:paddingBottom="10dp"
+                android:text="@string/product_state_new"
+                android:textColor="@color/gray_text"
+                android:textSize="11sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/product_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:text="Soporte Monitor Hidraulico Lcd Led Tv 19 20 22 24 27 32"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constrainedWidth="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/product_state"
+                app:layout_constraintTop_toBottomOf="@+id/product_state" />
+
+            <FrameLayout
+                android:id="@+id/pictures_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/product_title">
+
+                <androidx.viewpager2.widget.ViewPager2
+                    android:id="@+id/product_pictures_vp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal" />
+
+                <TextView
+                    android:id="@+id/page_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/background_page_number"
+                    android:paddingStart="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="5dp"
+                    android:text="@string/pege_number_text"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/product_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="$ 1500"
+                android:textColor="@color/black"
+                android:textSize="35sp"
+                app:layout_constraintStart_toStartOf="@+id/product_state"
+                app:layout_constraintTop_toBottomOf="@+id/pictures_container" />
+
+            <TextView
+                android:id="@+id/installments"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/installments_text"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                app:layout_constraintStart_toStartOf="@+id/product_price"
+                app:layout_constraintTop_toBottomOf="@+id/product_price" />
+
+            <ImageView
+                android:id="@+id/free_shipping_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/ic_airport_shuttle_24px"
+                android:backgroundTint="@color/black"
+                android:padding="12dp"
+                app:layout_constraintStart_toStartOf="@+id/installments"
+                app:layout_constraintTop_toBottomOf="@+id/installments"
+                app:tint="@color/white" />
+
+            <TextView
+                android:id="@+id/shipping_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="@string/free_shepping_text"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                app:layout_constraintStart_toEndOf="@+id/free_shipping_icon"
+                app:layout_constraintTop_toTopOf="@+id/free_shipping_icon" />
+
+            <TextView
+                android:id="@+id/shipping_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Beneficio Mercado Puntos"
+                android:textColor="@color/gray_text"
+                android:textSize="13sp"
+                app:layout_constraintStart_toStartOf="@+id/shipping_title"
+                app:layout_constraintTop_toBottomOf="@+id/shipping_title" />
+
+            <TextView
+                android:id="@+id/store_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/sold_by"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                app:layout_constraintStart_toStartOf="@+id/free_shipping_icon"
+                app:layout_constraintTop_toBottomOf="@+id/shipping_desc" />
+
+            <TextView
+                android:id="@+id/store_billing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/billing"
+                android:textColor="@color/gray_text"
+                android:textSize="11sp"
+                app:layout_constraintStart_toStartOf="@+id/free_shipping_icon"
+                app:layout_constraintTop_toBottomOf="@+id/store_name" />
+
+            <TextView
+                android:id="@+id/stock_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="@string/available_stock"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/free_shipping_icon"
+                app:layout_constraintTop_toBottomOf="@+id/store_billing" />
+
+            <TextView
+                android:id="@+id/quantity_selector"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/background_text_view"
+                android:padding="10dp"
+                android:text="@string/quantity_selector"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/free_shipping_icon"
+                app:layout_constraintTop_toBottomOf="@+id/stock_desc" />
+
+            <ImageView
+                android:id="@+id/warranty_icon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/ic_redeem_24px"
+                android:backgroundTint="@color/gray_text"
+                android:padding="12dp"
+                app:layout_constraintStart_toStartOf="@+id/free_shipping_icon"
+                app:layout_constraintTop_toBottomOf="@+id/quantity_selector" />
+
+            <TextView
+                android:id="@+id/warranty_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="@string/warrancy"
+                android:textColor="@color/gray_text"
+                android:textSize="13sp"
+                app:layout_constraintBottom_toBottomOf="@+id/warranty_icon"
+                app:layout_constraintStart_toEndOf="@+id/warranty_icon"
+                app:layout_constraintTop_toTopOf="@+id/warranty_icon" />
+
+            <View
+                android:id="@+id/divisor"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/gray_background"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/warranty_desc" />
+
+            <TextView
+                android:id="@+id/seller_information_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Informacion sobre el vendedor"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="@+id/product_state"
+                app:layout_constraintTop_toBottomOf="@+id/divisor" />
+
+            <ImageView
+                android:id="@+id/seller_address_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/ic_location_on_24px"
+                android:backgroundTint="@color/gray_text"
+                android:padding="12dp"
+                app:layout_constraintStart_toStartOf="@+id/installments"
+                app:layout_constraintTop_toBottomOf="@+id/seller_information_title"
+                app:tint="@color/white" />
+
+            <TextView
+                android:id="@+id/seller_address_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Ubicación"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                app:layout_constraintStart_toEndOf="@+id/free_shipping_icon"
+                app:layout_constraintTop_toTopOf="@+id/seller_address_icon" />
+
+            <TextView
+                android:id="@+id/seller_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="@string/seller_address"
+                android:textColor="@color/gray_text"
+                android:textSize="15sp"
+                app:layout_constraintStart_toEndOf="@+id/free_shipping_icon"
+                app:layout_constraintTop_toBottomOf="@+id/seller_address_title" />
+
+            <View
+                android:id="@+id/seller_reputation_level_1"
+                android:layout_width="0dp"
+                android:layout_height="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="5dp"
+                android:background="@color/gray_background"
+                app:layout_constrainedWidth="true"
+                app:layout_constraintEnd_toStartOf="@+id/seller_reputation_level_2"
+                app:layout_constraintStart_toStartOf="@+id/seller_address_icon"
+                app:layout_constraintTop_toBottomOf="@+id/seller_address" />
+
+            <View
+                android:id="@+id/seller_reputation_level_2"
+                android:layout_width="0dp"
+                android:layout_height="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="5dp"
+                android:background="@color/gray_background"
+                app:layout_constrainedWidth="true"
+                app:layout_constraintEnd_toStartOf="@+id/seller_reputation_level_3"
+                app:layout_constraintStart_toEndOf="@+id/seller_reputation_level_1"
+                app:layout_constraintTop_toBottomOf="@+id/seller_address" />
+
+            <View
+                android:id="@+id/seller_reputation_level_3"
+                android:layout_width="0dp"
+                android:layout_height="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="5dp"
+                android:background="@color/gray_background"
+                app:layout_constrainedWidth="true"
+                app:layout_constraintEnd_toStartOf="@+id/seller_reputation_level_4"
+                app:layout_constraintStart_toEndOf="@+id/seller_reputation_level_2"
+                app:layout_constraintTop_toBottomOf="@+id/seller_address" />
+
+            <View
+                android:id="@+id/seller_reputation_level_4"
+                android:layout_width="0dp"
+                android:layout_height="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="5dp"
+                android:background="@color/gray_background"
+                app:layout_constrainedWidth="true"
+                app:layout_constraintEnd_toStartOf="@+id/seller_reputation_level_5"
+                app:layout_constraintStart_toEndOf="@+id/seller_reputation_level_3"
+                app:layout_constraintTop_toBottomOf="@+id/seller_address" />
+
+            <View
+                android:id="@+id/seller_reputation_level_5"
+                android:layout_width="0dp"
+                android:layout_height="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="20dp"
+                android:background="@color/gray_background"
+                app:layout_constrainedWidth="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/seller_reputation_level_4"
+                app:layout_constraintTop_toBottomOf="@+id/seller_address" />
+
+            <TextView
+                android:id="@+id/seller_sales"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="234"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="@+id/seller_sales_desc"
+                app:layout_constraintStart_toStartOf="@+id/seller_sales_desc"
+                app:layout_constraintTop_toBottomOf="@+id/seller_reputation_level_1" />
+
+            <ImageView
+                android:id="@+id/attention_type_icon"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/ic_mark_chat_read_24px"
+                android:backgroundTint="@color/black"
+                android:padding="12dp"
+                app:layout_constraintBottom_toBottomOf="@+id/seller_sales"
+                app:layout_constraintEnd_toStartOf="@+id/delayed_handling_time_icon"
+                app:layout_constraintStart_toEndOf="@+id/seller_sales"
+                app:layout_constraintTop_toTopOf="@+id/seller_sales"
+                app:tint="@color/white" />
+
+            <ImageView
+                android:id="@+id/delayed_handling_time_icon"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/ic_schedule_24px"
+                android:backgroundTint="@color/black"
+                android:padding="12dp"
+                app:layout_constraintBottom_toBottomOf="@+id/seller_sales"
+                app:layout_constraintEnd_toEndOf="@+id/delayed_handling_time_desc"
+                app:layout_constraintStart_toStartOf="@+id/delayed_handling_time_desc"
+                app:layout_constraintTop_toTopOf="@+id/seller_sales"
+                app:tint="@color/white" />
+
+
+            <TextView
+                android:id="@+id/seller_sales_desc"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center"
+                android:text="@string/last_days_sales"
+                android:textColor="@color/gray_text"
+                android:textSize="13sp"
+                app:layout_constraintEnd_toStartOf="@+id/attention_type_desc"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/seller_sales" />
+
+            <TextView
+                android:id="@+id/attention_type_desc"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center"
+                android:text="@string/attention_type"
+                android:textColor="@color/gray_text"
+                android:textSize="13sp"
+                app:layout_constraintEnd_toStartOf="@+id/delayed_handling_time_desc"
+                app:layout_constraintStart_toEndOf="@+id/seller_sales_desc"
+                app:layout_constraintTop_toBottomOf="@+id/seller_sales" />
+
+            <TextView
+                android:id="@+id/delayed_handling_time_desc"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="40dp"
+                android:gravity="center"
+                android:text="@string/ship_your_products_on_time"
+                android:textColor="@color/gray_text"
+                android:textSize="13sp"
+                app:layout_constrainedWidth="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/attention_type_desc"
+                app:layout_constraintTop_toBottomOf="@+id/seller_sales" />
+
+
+            <View
+                android:id="@+id/store_information_divisor"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/gray_background"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/seller_sales_desc" />
+
+            <TextView
+                android:id="@+id/store_information_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Informacion de la tienda"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="@+id/product_state"
+                app:layout_constraintTop_toBottomOf="@+id/store_information_divisor" />
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/eshop_picture"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="30dp"
+                android:minHeight="50dp"
+                android:scaleType="fitCenter"
+                app:layout_constraintHeight_max="100dp"
+                app:layout_constraintStart_toStartOf="@+id/product_state"
+                app:layout_constraintTop_toBottomOf="@+id/store_information_title" />
+
+            <TextView
+                android:id="@+id/eshop_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="@string/installments_text"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                app:layout_constraintStart_toEndOf="@+id/eshop_picture"
+                app:layout_constraintTop_toTopOf="@+id/eshop_picture" />
+
+            <TextView
+                android:id="@+id/eshop_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tienda oficial de Mercado Libre"
+                android:textColor="@color/gray_text"
+                android:textSize="13sp"
+                app:layout_constraintBottom_toBottomOf="@+id/eshop_picture"
+                app:layout_constraintStart_toStartOf="@+id/eshop_name"
+                app:layout_constraintTop_toBottomOf="@+id/eshop_name" />
+
+
+            <View
+                android:id="@+id/product_description_divisor"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/gray_background"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/eshop_desc" />
+
+            <TextView
+                android:id="@+id/product_description_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Descripcion"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="@+id/product_state"
+                app:layout_constraintTop_toBottomOf="@+id/product_description_divisor" />
+
+            <TextView
+                android:id="@+id/product_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="30dp"
+                android:text="Soporte Monitor Hidraulico Lcd Led Tv 19 20 22 24 27 32"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                app:layout_constrainedWidth="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/product_state"
+                app:layout_constraintTop_toBottomOf="@+id/product_description_title" />
+
+            <androidx.constraintlayout.widget.Group
+                android:id="@+id/seller_information"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:constraint_referenced_ids="divisor,seller_information_title, seller_address_icon, seller_address_title
+                , seller_address,seller_reputation_level_1,seller_reputation_level_2,seller_reputation_level_3,seller_reputation_level_4,seller_reputation_level_5
+                ,seller_sales, attention_type_icon, delayed_handling_time_icon, seller_sales_desc, attention_type_desc,delayed_handling_time_desc" />
+
+            <androidx.constraintlayout.widget.Group
+                android:id="@+id/eshop_information"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:constraint_referenced_ids="store_information_title, store_information_divisor, eshop_picture
+                , eshop_name, eshop_desc" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
