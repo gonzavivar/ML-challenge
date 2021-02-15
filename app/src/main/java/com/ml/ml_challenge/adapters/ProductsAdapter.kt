@@ -3,7 +3,6 @@ package com.ml.ml_challenge.adapters
 import android.content.Context
 import android.graphics.Bitmap
 import android.net.Uri
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -21,21 +20,11 @@ import com.ml.ml_challenge.R
 import com.ml.ml_challenge.objects.Product
 import kotlinx.android.synthetic.main.item_product.view.*
 import kotlin.math.roundToInt
-import java.io.IOException
 
-import android.graphics.BitmapFactory
-import android.widget.ImageView
-
-import java.io.BufferedInputStream
-
-import java.io.InputStream
-
-import java.net.URLConnection
-
-import java.net.URL
-
-class ProductsAdapter(private val products: ArrayList<Product>,
-                      private val onProductClickListener:OnProductClickListener) :
+class ProductsAdapter(
+    private val products: ArrayList<Product>,
+    private val onProductClickListener: OnProductClickListener
+) :
     RecyclerView.Adapter<ProductsAdapter.ProductViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ProductViewHolder {
@@ -45,15 +34,28 @@ class ProductsAdapter(private val products: ArrayList<Product>,
     }
 
     override fun onBindViewHolder(holder: ProductViewHolder, position: Int) {
-        val product:Product = products[position]
+        val product: Product = products[position]
         val context: Context = holder.title.context
         holder.title.text = product.title
         holder.price.text = context.getString(R.string.price, product.price.roundToInt())
 
+        if (product.shipping.freeShipping) {
+            holder.shippingTv.visibility = View.VISIBLE
+        } else {
+            holder.shippingTv.visibility = View.GONE
+        }
+
+        if (product.seller != null && product.seller!!.eshop != null) {
+            holder.eshopName.text = context.getString(R.string.sold_by,product.seller!!.eshop!!.nickName)
+            holder.eshopName.visibility = View.VISIBLE
+        } else {
+            holder.eshopName.visibility = View.GONE
+        }
+
         val imageRequest = ImageRequestBuilder
             .newBuilderWithSource(Uri.parse(product.thumbnail))
             .build()
-        
+
         val imagePipeline = Fresco.getImagePipeline()
         val dataSource = imagePipeline.fetchDecodedImage(imageRequest, context)
 
@@ -72,7 +74,7 @@ class ProductsAdapter(private val products: ArrayList<Product>,
             }, CallerThreadExecutor.getInstance()
         )
 
-        holder.view.setOnClickListener{
+        holder.view.setOnClickListener {
             onProductClickListener.onProductClick(position)
         }
     }
@@ -83,11 +85,13 @@ class ProductsAdapter(private val products: ArrayList<Product>,
         var title: TextView = view.product_title
         var price: TextView = view.product_price
         var image: SimpleDraweeView = view.product_picture
+        var shippingTv: TextView = view.shipping_title
+        var eshopName: TextView = view.eshop_name
     }
 
     companion object {
-        interface OnProductClickListener{
-            fun onProductClick(position:Int)
+        interface OnProductClickListener {
+            fun onProductClick(position: Int)
         }
     }
 }

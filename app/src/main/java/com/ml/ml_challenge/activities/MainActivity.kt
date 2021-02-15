@@ -49,6 +49,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun searchAndShowResponse() {
+        animation_view.visibility = View.GONE
+        activity_messages.visibility = View.GONE
+
         search_icon.isFocusable = false
         search_icon.isClickable = false
         progress_bar.visibility = View.VISIBLE

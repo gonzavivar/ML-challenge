@@ -114,23 +114,23 @@ class ProductDetailsActivity : AppCompatActivity() {
                     )
                 }
 
-                seller_sales.text = seller.reputation.metrics.sales.completed.toString()
+                seller.reputation?.let {
+                    seller_sales.text = it.metrics.sales.completed.toString()
+                    if (it.metrics.sales.period == SIXTY_SALES_PERIOD_ID) {
+                        seller_sales_desc.text =
+                            getString(R.string.last_days_sales, 60)
+                    } else {
+                        seller_sales_desc.text =
+                            getString(R.string.last_days_sales, 365)
+                    }
 
-                if (seller.reputation.metrics.sales.period == SIXTY_SALES_PERIOD_ID) {
-                    seller_sales_desc.text =
-                        getString(R.string.last_days_sales, 60)
-                } else {
-                    seller_sales_desc.text =
-                        getString(R.string.last_days_sales, 365)
+                    if (it.metrics.delayedHandlingTime.rate < 0.2) {
+                        delayed_handling_time_desc.text =
+                            getString(R.string.not_ship_your_products_on_time)
+                    }
+
+                    setSellerLevel(it.levelId)
                 }
-
-                if (seller.reputation.metrics.delayedHandlingTime.rate < 0.2) {
-                    delayed_handling_time_desc.text =
-                        getString(R.string.not_ship_your_products_on_time)
-                }
-
-                setSellerLevel(seller.reputation.levelId)
-
             }
 
             product_description.text = description

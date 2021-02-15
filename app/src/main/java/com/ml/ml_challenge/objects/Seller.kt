@@ -7,4 +7,4 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 @Parcelize
-data class Seller(var eshop: Eshop? = null,@SerialName("seller_reputation") var reputation: Reputation):Parcelable
+data class Seller(var eshop: Eshop? = null,@SerialName("seller_reputation") var reputation: Reputation? = null):Parcelable

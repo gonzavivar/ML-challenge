@@ -1,0 +1,2426 @@
+{
+  "v": "5.5.7",
+  "meta": {
+    "g": "LottieFiles AE 0.1.20",
+    "a": "",
+    "k": "",
+    "d": "",
+    "tc": ""
+  },
+  "fr": 29.9700012207031,
+  "ip": 0,
+  "op": 240.0000097754,
+  "w": 500,
+  "h": 500,
+  "nm": "Search Animation",
+  "ddd": 0,
+  "assets": [
+    {
+      "id": "image_0",
+      "w": 107,
+      "h": 20,
+      "u": "",
+      "p": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGsAAAAUCAYAAACKy8MYAAAFSElEQVRoQ+1YQVYjNxAtdS9au2F2aljEOcEwJwhzgiEnCDnBOCcInCDkBPGcIM4JBk4QcoKYBbR2gV170a28X69Kr9zY2DOBBOe53+MB3VKp9H/Vr5Ic7Z6tQcBtjac7R2lH1hYFwQOyDg4ODruu28MeYowXW7SX/72rmSwhaUpEXw12fem9P57NZnfPiUZd19OU0qH3/nDVWiEEBM83RPTucwNpODeEcERE+LnY1FYI4ZSIfiSis7Isp13XXTjnJk3TjJ8TG7XNZI1Go722bWdE9IqIrolo4pw7Tim9wXfn3B8ppeMYI8Y8yyNggqzRv0RWBj7GiL/XPi+CrLqur4SYjzHGE/U6hDAioish8WzTTa3d9RcOeOLM+kdk/RdYuP39/eO+738lovtlUW2i6TrGCPKorusxMk0k6d45d1EUxenNzQ2IJQEVGYkgAPmvNDuJCCBhLp6p936MTKrr+hwyGGOENBFkue/705TSe/iGsc65QwkqlkHx/dxIN8aNY4yTYTxYokU14AMkH0oyw7pQmPl8PpE11UQuA0sy6xx7VBkMIWDd78zal2VZjoFLCAE4nDjnUGqO7L4UA8EWODBmqmpFUZzAhlMHnHO/NU2jIK6MfVn0FyOPaEaw6fuyLI/EsWQdJqJDXVzeXwrR+Pd7gKtgxhjhk81oBMNMJVnmM1khBK6jCBaouY4py/KtBo5RiVzvVpFlsIDsI/AYeMXGkoVaR0SfiOgSRBtcriVIEXQAXL9rJsMkB3hKicc4535omub8ERucKJksFM11qS217S8LmImGD2ZTTFZRFN/e3t5OTfbiNQMt2fmTmcNgClm8MXyrquoEmWeDBDZADhEhaLJ0m+x5sJclDcYDGVTyVWHMmvcxxr01ZKGeI2i/Rm2XBgZkoqu2OGeFMmP4nfqowSZB+6fasEYW6tWy1FLjkLSmaZAt/Egn+TskRRZlsuAkfg+dGrzTyLNk8d9KtskOzdjcDWpXZxuiZYG3CVniF4JAO0UoDcvRAPCzYWZhjAQz5uh87qwHAfiz7R5DCAtYPWbDmQhfIEABkqwYO+cgOUhdZMPCgrLJvOjQAUMWE7OOLG14hnJmGqF3ZVnedV2nRw2taXtSC74os6RuflCJR1eM/W5Clsk6DIcU4ijCtoZEWwWzWCkXgj3bkPr2Bja0PnCqLTu/mIj8COdFp3MqW+A1456ALGwUjQXXMxO1WYKdc2hy3iNwqqo6FanUAv/ZZFl1AEAiZciyLEOrZBCNg4zLdduWjE3I8t6/btt2ocTYIxWTJWBjMeg/d1Pe+2nbtsciLQAtEym6Dmk4896ft22LBgMg4bDKUvoEZIEIZDAKPfy5ms/n6Aw5UhFUzjl0TTgHsiQasPF9LVm2ZqIuzufzE1mTG61hZ/iYDEqH+8mWB5ulm5AFFem6LpcS4SU3JZksfLDGVQLN7xzhA1DyEDhaVdWRRPiqmrWRDApQkFw+lC950GBATnGbwLKjHak9JthD/JKalbMGBiSy7cUAd7hinzu2lBICk28wlnSD2mDAF4xDQGM+B7bY4bmrZDCE8KiNhbtBdD+STXw3CIdwrTJsg4UwLqRay6qqmujNg8gFtJpvBqSrQfbiPMOyNnwnnddI5whhiHZk+F1KCfqNByBPvPd3Jvv3oO/woW1bnH1Qu3Deyjcuah9z9b3UYz6uQBHkbIc10TzNyrJE9o76vkfNhjSjnecrKnwX+eM9YT8izTxX1AZtP1QC8zDnwfWWxWpooyiKad/3d2pjd+u+InVf4usdWS+RlRU+7cjakbVFCGyRq38DrJSr4dKwGl8AAAAASUVORK5CYII=",
+      "e": 1
+    },
+    {
+      "id": "image_1",
+      "w": 94,
+      "h": 20,
+      "u": "",
+      "p": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF4AAAAUCAYAAAAEEYpkAAAEj0lEQVRYR+2YQXLbRhBFp4EFZyd5N5AWok9g+QSmT2DmBFFOEOUEoU8Q5gSRTxD6BKZOYPkEIRcSZhdlBy3Acf2pblRjCEAsMVWschFVKlEkMNPz+vfvpsgcr4MQoIPsetzUHMEfSARH8IcE75wL2N97v1MinHMTY8wXY8xH7/3sQLH3bjsej0+rqloQ0V1Zlte4kd+bG2MQ+wURfQshLKy189Vq9agXU+fr2mOdZdn1w8PDYp9zR9A/GviiKK5DCH8YY2699wBtiqK4CyG8SWEhAWVZXg6Av1WfvVOv33vvly+F/0OBd85dEdE0hPCBgUTwZ2dn081m8ze/94v3/karOs/zt/f393cCUX+mXYCrBvdd7FvtW+ARvDEGP0siuuRD/EdEy9FodIWylMCI6E9UcQghqsoYg/Kbee9X+OP8/Pxys9nM+PMTKDDLsrmUaVEU8xAC1HZDRFApFLnG39rCnHMzBiqKvc3z/FrD4sqFAqFKrAE4ETyeN8b8TkSfy7KcKsByf0zGc+C5chbM5KMxBueMrPg39oyVkMSMeJZ5ns8l5i7wMUgJAsEKOJTlaDSaVFUFWPB4uVCOYz7sJ+/9FaDXdY2AABwbI0gpVVGdHBzrrOHJolZRoXMOQH42xsTkc6JwwLW19lL7M/bEQnVdn3J8Ah7CwM9S7IHVi5hOdlV8ciaAx9WwQox5nk/qukZfQcy4wAZxnQg/xDwIXh0eUAHpIsuynzabDZpRBG+tfYWF+CD/YnPv/alzLkJFVUiDS0tY7jHGxGSxaiXxn1A9xph/ZE3JclEUorqWUjsU23i89mLn3JiIsMabHTxeP6pfv2aVC/gYCyfnK2IGcFQ/2Dw9Pd1IpaCae8GnAbEt/Apv4yQAfAOMoTXTkXMOyYHaX4v18D1Q2QWSWtc1pox3SKbYj0pOtCV4s0wgqgrFAlv77wKeGy8S2lJgkhiZ2ragwwGyLJvBMrosjK36r9TWVJ+JYhgC3/JDeZCtB8C2xkk9HfHrqH4dvVLre1Y07KeZEDR4TrAu5RREn6IFXPO5jJhid7oS00X7mmvHfVKdzVgtyUibb+oIQ1az9t7DYuKlvFYrvjXHJ+AbZScTQ1MJaKIMog88DvaloykiLvysdDX1KZ5LHf0BzRkWMB0aBfcBnypbxQQrbSph0OOJ6LeyLOe8GCDBOqBUXIOKV8pGc7my1j5WVYWmAwW3+kCf4q2106qq0DdwSUNu/FlbVI9VtKYa3IMzhRCa0RHvWWvvdJPeBzz6B/clHfOEiDDBoadEps9ONawQAMcVPbXvm6tWfKIyPAulYZ3Y+dkjZarpVDyPglEpaZmnVfAMeD09bfm2TjxXd+PxQ9/m+2xFfH4oZgEfv/aj2+rFiOgxhDDFb/gtMsWBIatxftUly8/GdXAfw8d9kxACvB4AMKPHOZ8DxFr6PVkbNhJnaySa53j5hrns+qqvyrq1htqnCzrea/ZPztecpetBFmBrTFUx6JhxXsS8kMra+t9MXxb7Ij6+/zICR/Av47b3U13gByeGvXc8LhAJ7PRv4COr/5/AdxiPlkLV/34XAAAAAElFTkSuQmCC",
+      "e": 1
+    },
+    {
+      "id": "image_2",
+      "w": 14,
+      "h": 14,
+      "u": "",
+      "p": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAABOUlEQVQ4T32SMVLDMBBF/8aFS1zKdoG5gW9AqGhzA+AG4QZwAjhCcoKEjo5wAsIN3Hi0ZdK5scV8Y3k0hkSFx5L2rf7+XUGwjDFzAPcACn8sIts4jldVVR3CWPEbY8wKwB33IvLtnGNgCeACwDGKonld1/sxIX88JCJvzrmlqlZBQip45T6EZZD3Qchauwjl+P88z8u2bb8AfKoqywFBL/EqfGmaYBpHcCciibWW9ZxcWZYtuq7bALhR1V0PMtpLOEX6kqZgqarJuRfTNF06515GMDh4UFXW++8yxtDpxD8gRVEkTdP09k97FbTkHcAtgGdVfepd5Wewm7Wy2evZbLbtuu4gIiX7CuBySLJWVfb1FwxgNvp6ovU4DADHkJPVwyMYyGLAOKu0Prjrey4ij3/Ac87ybjBz/wM0eZVStqM3OAAAAABJRU5ErkJggg==",
+      "e": 1
+    },
+    {
+      "id": "image_3",
+      "w": 124,
+      "h": 18,
+      "u": "",
+      "p": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHwAAAASCAYAAACZ4LqUAAAFvUlEQVRoQ+2YQVIjRxBFq5qgWQ4+geUTIJ9g5BvgE1g+wcgLFewQO9FajHwCixMgn8CaE1hzAuMTGHbQCnVNvIrMjqRHDR6MIWJQbSDU6qrM/zP/z5J32/WqEPCvKtttsm5L+CsrAj8cDrve+6nNO8Z45b1flGU5m06nVy+NydHRUYrv7Oxs8NKxPOX5IYRD9iuKYv6U+963lz8+Pu5VVfWHc+6jc07J3XfOHTjnPhRF0XuuYNrOCSEsBJgXj+UpsQghLGOMl5PJJBH/HKsmPMuyH8bjcQKWNRwO+97732KM308mk+VzBPPaCH8JTFsJF7m5oBDW63XHe9+33U5BZFnWRWaNLbwVpZgVRZFkeDAY7Od5zv90536McbFarfpqFSEEZLrvnOvwzDk3ahaY7XD229vbG8UY2a/1Hc6WHNi/65wjBgp3QB7YRFVVy8lkMlPgOSfGOOMzUT7eQelY52VZDpoW18jvMsuyUVVVxMe+S+yyDTdrVWYfuv0NOGZZNqAJpfnACOkfkUtZllPBQdUBC07xwQff896D0aVzrubDSvq5PCS5jhB0VZZlL89zQDspiqIe8kIIHNwjmRACVgCYUw6JMb5TxUC2ZD+CTYBjHUVRdFVFnHOnYifvN9mIJTyEAJA/QYDZj0Lq2UKRIoRAimhOwTrnKEg808uei6IoyCOtEEIklizLZlVV/QXoMUZywuL43rJpcbJPApiClvwgjH0W2OU9uNVWZfeRGQqcOjRVVVXEfqKFJ/HxGYRSlJwPJr/QaIK5k9jh8iTG+DOFbAnfpDCpqu8jvCzLwzzP/7EdIF1LtV/JfPCjDiY6M2AVWZb1SU5BVzItQEJEAobvCxEpMaMgnH9qyaN7YoyHZVl2jZpQcAcPEQ7BG96lk1C878bjMV3jjo+PO8SjYFor/BLCY4wD7/2fzrkaJ+l4ztGBuibNYIJ6zOW7YASWqQGtktJYvHOH8DYPp2qkcls7XMB9JxXD8DcHfCH+fVmW32ya9iVQggFMuu9v59y3bYQjk8wVFnQBmQ7et90nHXNZFEVKlqVxPkS4dE5Sg+ayOKlC2Xi1CL6EcLEBBufPVozxd+89hXpiceQcCkWsDdsBO/KFcNQBtWQlPrAAOGj1cKkiDkKuqZ47hAt4XQUZ8nZ3dw/FN6zkfkY4XX5zc7PM8xyZT/4qMsX/F22ES7VfNAdJkbBU3YrYfyQcGezioU0GiNsoRur6JhGiQhsl3eKmVqWEoxQ7OztJPXSt12uuyJxT4y9FlbiJMY5Wq9Vc/PwOH3me98RiUdIFt4FWwlVSqCIOb07s6tsm2HqaF2nGyykApKqWYO0KOgW5997/qvdrAeDtv5D0Wr4lzjZJ75dl2TEEAWZSkOFwiCp0mCWaUixFngZDnQt0cMLCdD/TzXV+MtvgtzXhtkBDCMSgnWg9nPmhaVU0hHp0TbgO1GoBRv6XxvZqe9CYyLvtHg4GSNq1AiYEU21ziAQ4HbAkCYqCZwwuPEfW+2bI+iBDIc9IuCudeQDpRpo4u05clMYCo0MbUkWVoyYfGS6tbdguYEqVmwCxvRHC9dqJZKJiOh2fIn95nnPmPjlVVcUtJQ1Idk6Q2OwQiTKoFaSiVGwkBs6of99oDKMqw+fEIxin4dYSxpmm0K699zPDx3WWZYfr9ZqZgEJeyF7YWho4IZzBo/Y5KyfIrBlQ+IEmXZ/kenAJuQwCMhGnqVLeh+z61zs8BUJl2q2fGR8iuHSlEV+qBzntPv7qFUq6LV3LSEr9qSm/xCWDYRf/Ry7t1KxdK1MxxPH9BVch6Rpy0qsNcW/8RczkdyWKx4SfCJchNeGGFyOtBrd6mDIqo3nNsyybg7/swY2ovlHYfeGDfb33xMt7S66Gygfn3t7ejpKHbxoUvtbP9IbQtIynzlevd001eOpzHrPflvDHoPbAO1vC/wdQt1s+DoFX1eGPg+jreusTZcQeXiJJqQAAAAAASUVORK5CYII=",
+      "e": 1
+    },
+    {
+      "id": "image_4",
+      "w": 14,
+      "h": 14,
+      "u": "",
+      "p": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAABOUlEQVQ4T4WSsVHEMBBFv+QZp7gDoAN3gIlI6YCjAxF4RyFkmlWAS7irgCMj46iAowNKuEsdSMwK60ZjOFDgGa3/0+7+XYXiWGu7EMICwFkRXo/juByGYVdqVb4Q0RLAzXT/ACDCFsAJgH2MsfPeb7M+gRmKMT5XVWWcc59Z0Pf9Qik1yL2E1VTeq0De++uynAJulVLvAN6YuZO4ytm01udlpvkDc52AGwANM0s/Rw8RSTVPWutL59wmg8glHCNzS3OwZebmn4wGwGMJpkCM8dZ7LyP59RCROC0tpQTKGNPUdZ3sn8+qmPELgCsAD8x8n0D59H0vdotJMuwVgLXWehdCEMOkotPpkRUzy2Z9gwUsg76Y1boHIHFZQ9msBB/ALLbWiuCwq2J9UXJey7sf4F/Oyj8iMlrr7RdlCpSJvZDNhQAAAABJRU5ErkJggg==",
+      "e": 1
+    },
+    {
+      "id": "image_5",
+      "w": 345,
+      "h": 46,
+      "u": "",
+      "p": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVkAAAAuCAYAAACComoWAAAD50lEQVR4Xu3YMUvjYBzH8efJ0HaQazFDwTrYJR4G2lFacHGRhk4dBH0Nd8PdDX0NHdRBX8MJDrqU1MlFaHFsY0SyuFjRodAeDm2H5Ihni3hyHNJnMd+MpfmF58OfH38eKf5+NNu2P6dSqXUpZXZubs6UUn5643/8hAACCERWIAiCX4+Pj24QBDf9fv/MsqxrIYT/GkS+/KFWqy2USqU9Xdc34/G4iMViQtO0yCJycAQQQOBfAr7vi/F4LEajkej1ekeNRuNbtVq9e/nOtGTr9fra8vLyz/n5+cWwYHkQQAABBP5f4Llobz3P2y6Xy+eTN59KNtxgK5XKRTqdXmRz/X9U/okAAgi8FAg324eHh9vj4+PVyUYblqzW6XQOM5nM0xUBDwIIIIDA+wXCjbbb7R7lcrmt8I5W2ra9ks/n3WQy+f5U3kQAAQQQmAoMBgPRbrdNy7KuZLPZ/GIYxn4ikYAIAQQQQGAGAsPhUHie97VYLB7IVqu1Y5rmd+5iZyBLBAIIIBDeEfi+cF13t1Ao/JCO45xms9kNZBBAAAEEZifgOM6fkr28vGwuLS0VZhdNEgIIIIAAJcsMIIAAAgoFKFmFuEQjgAAClCwzgAACCCgUoGQV4hKNAAIIULLMAAIIIKBQgJJViEs0AgggQMkyAwgggIBCAUpWIS7RCCCAACXLDCCAAAIKBShZhbhEI4AAApQsM4AAAggoFKBkFeISjQACCFCyzAACCCCgUICSVYhLNAIIIEDJMgMIIICAQgFKViEu0QgggAAlywwggAACCgUoWYW4RCOAAAKULDOAAAIIKBSgZBXiEo0AAghQsswAAgggoFCAklWISzQCCCBAyTIDCCCAgEIBSlYhLtEIIIAAJcsMIIAAAgoFKFmFuEQjgAAClCwzgAACCCgUmJas4zin2Wx2Q+G3iEYAAQQiJzAt2VartWOa5ndN0yKHwIERQAABFQK+7wvXdXcLhcIP2Ww2vxiGsZ9IJFR8i0wEEEAgcgLD4VB4nve1WCweSNu2V/L5vJtMJiMHwYERQAABFQKDwUC0223TsqwrKYTQOp3OYSaT2YzH4yq+RyYCCCAQGYHRaCS63e5RLpfbEkL4YcmKWq22UKlULtLp9CJ3s5GZBQ6KAAIzFgjvYu/v729PTk5Wq9XqXRj/VLLhU6/X1wzD+Knr+iIb7YzliUMAgQ8vEG6wvV7v1vO87XK5fD458LRkJxttqVTa03X96eogFosJNtsPPxscEAEE3ikQbq7j8Vg8F+xRo9H4Ntlg3yzZ5x8127Y/p1KpdSll9p3f5jUEEEAgEgJBENz0+/0zy7KuwzvY14f+DR+T0j4dW1xlAAAAAElFTkSuQmCC",
+      "e": 1
+    },
+    {
+      "id": "comp_0",
+      "layers": [
+        {
+          "ddd": 0,
+          "ind": 1,
+          "ty": 2,
+          "nm": "Busca 2",
+          "refId": "image_3",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                183.714,
+                238.511,
+                0
+              ],
+              "ix": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                61.621,
+                8.582,
+                0
+              ],
+              "ix": 1
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                100
+              ],
+              "ix": 6
+            }
+          },
+          "ao": 0,
+          "ip": 0,
+          "op": 899.000036617021,
+          "st": 0,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 2,
+          "ty": 2,
+          "nm": "Gray Icon 2",
+          "refId": "image_4",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                104.199,
+                237.199,
+                0
+              ],
+              "ix": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                6.949,
+                6.949,
+                0
+              ],
+              "ix": 1
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                100
+              ],
+              "ix": 6
+            }
+          },
+          "ao": 0,
+          "ip": 0,
+          "op": 899.000036617021,
+          "st": 0,
+          "bm": 0
+        },
+        {
+          "ddd": 0,
+          "ind": 3,
+          "ty": 2,
+          "nm": "Background 2",
+          "refId": "image_5",
+          "sr": 1,
+          "ks": {
+            "o": {
+              "a": 0,
+              "k": 100,
+              "ix": 11
+            },
+            "r": {
+              "a": 0,
+              "k": 0,
+              "ix": 10
+            },
+            "p": {
+              "a": 0,
+              "k": [
+                256.667,
+                237.667,
+                0
+              ],
+              "ix": 2
+            },
+            "a": {
+              "a": 0,
+              "k": [
+                172,
+                23,
+                0
+              ],
+              "ix": 1
+            },
+            "s": {
+              "a": 0,
+              "k": [
+                100,
+                100,
+                100
+              ],
+              "ix": 6
+            }
+          },
+          "ao": 0,
+          "ip": 0,
+          "op": 899.000036617021,
+          "st": 0,
+          "bm": 0
+        }
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "ddd": 0,
+      "ind": 1,
+      "ty": 4,
+      "nm": "Blinker 6",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 1,
+          "k": [
+            {
+              "i": {
+                "x": [
+                  0.833
+                ],
+                "y": [
+                  0.833
+                ]
+              },
+              "o": {
+                "x": [
+                  0.167
+                ],
+                "y": [
+                  0.167
+                ]
+              },
+              "t": 142,
+              "s": [
+                0
+              ]
+            },
+            {
+              "i": {
+                "x": [
+                  0.833
+                ],
+                "y": [
+                  0.833
+                ]
+              },
+              "o": {
+                "x": [
+                  0.167
+                ],
+                "y": [
+                  0.167
+                ]
+              },
+              "t": 147,
+              "s": [
+                100
+              ]
+            },
+            {
+              "i": {
+                "x": [
+                  0.833
+                ],
+                "y": [
+                  0.833
+                ]
+              },
+              "o": {
+                "x": [
+                  0.167
+                ],
+                "y": [
+                  0.167
+                ]
+              },
+              "t": 152,
+              "s": [
+                0
+              ]
+            },
+            {
+              "i": {
+                "x": [
+                  0.833
+                ],
+                "y": [
+                  0.833
+                ]
+              },
+              "o": {
+                "x": [
+                  0.167
+                ],
+                "y": [
+                  0.167
+                ]
+              },
+              "t": 157,
+              "s": [
+                100
+              ]
+            },
+            {
+              "i": {
+                "x": [
+                  0.833
+                ],
+                "y": [
+                  0.833
+                ]
+              },
+              "o": {
+                "x": [
+                  0.167
+                ],
+                "y": [
+                  0.167
+                ]
+              },
+              "t": 182,
+              "s": [
+                100
+              ]
+            },
+            {
+              "i": {
+                "x": [
+                  0.833
+                ],
+                "y": [
+                  0.833
+                ]
+              },
+              "o": {
+                "x": [
+                  0.167
+                ],
+                "y": [
+                  0.167
+                ]
+              },
+              "t": 187,
+              "s": [
+                0
+              ]
+            },
+            {
+              "i": {
+                "x": [
+                  0.833
+                ],
+                "y": [
+                  0.833
+                ]
+              },
+              "o": {
+                "x": [
+                  0.167
+                ],
+                "y": [
+                  0.167
+                ]
+              },
+              "t": 192,
+              "s": [
+                100
+              ]
+            },
+            {
+              "t": 197.000008023974,
+              "s": [
+                0
+              ]
+            }
+          ],
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 1,
+          "k": [
+            {
+              "i": {
+                "x": 0.833,
+                "y": 0.833
+              },
+              "o": {
+                "x": 0.167,
+                "y": 0.167
+              },
+              "t": 162,
+              "s": [
+                250,
+                250,
+                0
+              ],
+              "to": [
+                21.627,
+                0.042,
+                0
+              ],
+              "ti": [
+                -21.627,
+                -0.042,
+                0
+              ]
+            },
+            {
+              "t": 182.000007413012,
+              "s": [
+                379.763,
+                250.25,
+                0
+              ]
+            }
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            0,
+            0,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "shapes": [
+        {
+          "ty": "gr",
+          "it": [
+            {
+              "ty": "rc",
+              "d": 1,
+              "s": {
+                "a": 0,
+                "k": [
+                  1.553,
+                  20.85
+                ],
+                "ix": 2
+              },
+              "p": {
+                "a": 0,
+                "k": [
+                  0,
+                  0
+                ],
+                "ix": 3
+              },
+              "r": {
+                "a": 0,
+                "k": 0,
+                "ix": 4
+              },
+              "nm": "Rectangle Path 1",
+              "mn": "ADBE Vector Shape - Rect",
+              "hd": false
+            },
+            {
+              "ty": "st",
+              "c": {
+                "a": 0,
+                "k": [
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "ix": 3
+              },
+              "o": {
+                "a": 0,
+                "k": 100,
+                "ix": 4
+              },
+              "w": {
+                "a": 0,
+                "k": 0,
+                "ix": 5
+              },
+              "lc": 1,
+              "lj": 1,
+              "ml": 4,
+              "bm": 0,
+              "nm": "Stroke 1",
+              "mn": "ADBE Vector Graphic - Stroke",
+              "hd": false
+            },
+            {
+              "ty": "fl",
+              "c": {
+                "a": 0,
+                "k": [
+                  0.347355382583,
+                  0.347355382583,
+                  0.347355382583,
+                  1
+                ],
+                "ix": 4
+              },
+              "o": {
+                "a": 0,
+                "k": 100,
+                "ix": 5
+              },
+              "r": 1,
+              "bm": 0,
+              "nm": "Fill 1",
+              "mn": "ADBE Vector Graphic - Fill",
+              "hd": false
+            },
+            {
+              "ty": "tr",
+              "p": {
+                "a": 0,
+                "k": [
+                  -130.974,
+                  -11.325
+                ],
+                "ix": 2
+              },
+              "a": {
+                "a": 0,
+                "k": [
+                  0,
+                  0
+                ],
+                "ix": 1
+              },
+              "s": {
+                "a": 0,
+                "k": [
+                  100,
+                  100
+                ],
+                "ix": 3
+              },
+              "r": {
+                "a": 0,
+                "k": 0,
+                "ix": 6
+              },
+              "o": {
+                "a": 0,
+                "k": 100,
+                "ix": 7
+              },
+              "sk": {
+                "a": 0,
+                "k": 0,
+                "ix": 4
+              },
+              "sa": {
+                "a": 0,
+                "k": 0,
+                "ix": 5
+              },
+              "nm": "Transform"
+            }
+          ],
+          "nm": "Rectangle 1",
+          "np": 3,
+          "cix": 2,
+          "bm": 0,
+          "ix": 1,
+          "mn": "ADBE Vector Group",
+          "hd": false
+        }
+      ],
+      "ip": 141.000005743048,
+      "op": 197.000008023975,
+      "st": 110.000004480392,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 2,
+      "ty": 4,
+      "nm": "Blinker 5",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 1,
+          "k": [
+            {
+              "i": {
+                "x": [
+                  0.833
+                ],
+                "y": [
+                  0.833
+                ]
+              },
+              "o": {
+                "x": [
+                  0.167
+                ],
+                "y": [
+                  0.167
+                ]
+              },
+              "t": 87,
+              "s": [
+                0
+              ]
+            },
+            {
+              "i": {
+                "x": [
+                  0.833
+                ],
+                "y": [
+                  0.833
+                ]
+              },
+              "o": {
+                "x": [
+                  0.167
+                ],
+                "y": [
+                  0.167
+                ]
+              },
+              "t": 92,
+              "s": [
+                100
+              ]
+            },
+            {
+              "i": {
+                "x": [
+                  0.833
+                ],
+                "y": [
+                  0.833
+                ]
+              },
+              "o": {
+                "x": [
+                  0.167
+                ],
+                "y": [
+                  0.167
+                ]
+              },
+              "t": 97,
+              "s": [
+                0
+              ]
+            },
+            {
+              "i": {
+                "x": [
+                  0.833
+                ],
+                "y": [
+                  0.833
+                ]
+              },
+              "o": {
+                "x": [
+                  0.167
+                ],
+                "y": [
+                  0.167
+                ]
+              },
+              "t": 102,
+              "s": [
+                100
+              ]
+            },
+            {
+              "i": {
+                "x": [
+                  0.833
+                ],
+                "y": [
+                  0.833
+                ]
+              },
+              "o": {
+                "x": [
+                  0.167
+                ],
+                "y": [
+                  0.167
+                ]
+              },
+              "t": 127,
+              "s": [
+                100
+              ]
+            },
+            {
+              "i": {
+                "x": [
+                  0.833
+                ],
+                "y": [
+                  0.833
+                ]
+              },
+              "o": {
+                "x": [
+                  0.167
+                ],
+                "y": [
+                  0.167
+                ]
+              },
+              "t": 132,
+              "s": [
+                0
+              ]
+            },
+            {
+              "i": {
+                "x": [
+                  0.833
+                ],
+                "y": [
+                  0.833
+                ]
+              },
+              "o": {
+                "x": [
+                  0.167
+                ],
+                "y": [
+                  0.167
+                ]
+              },
+              "t": 137,
+              "s": [
+                100
+              ]
+            },
+            {
+              "t": 142.000005783779,
+              "s": [
+                0
+              ]
+            }
+          ],
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 1,
+          "k": [
+            {
+              "i": {
+                "x": 0.833,
+                "y": 0.833
+              },
+              "o": {
+                "x": 0.167,
+                "y": 0.167
+              },
+              "t": 107,
+              "s": [
+                250,
+                250,
+                0
+              ],
+              "to": [
+                18.877,
+                0.042,
+                0
+              ],
+              "ti": [
+                -18.877,
+                -0.042,
+                0
+              ]
+            },
+            {
+              "t": 127.000005172816,
+              "s": [
+                363.263,
+                250.25,
+                0
+              ]
+            }
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            0,
+            0,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "shapes": [
+        {
+          "ty": "gr",
+          "it": [
+            {
+              "ty": "rc",
+              "d": 1,
+              "s": {
+                "a": 0,
+                "k": [
+                  1.553,
+                  20.85
+                ],
+                "ix": 2
+              },
+              "p": {
+                "a": 0,
+                "k": [
+                  0,
+                  0
+                ],
+                "ix": 3
+              },
+              "r": {
+                "a": 0,
+                "k": 0,
+                "ix": 4
+              },
+              "nm": "Rectangle Path 1",
+              "mn": "ADBE Vector Shape - Rect",
+              "hd": false
+            },
+            {
+              "ty": "st",
+              "c": {
+                "a": 0,
+                "k": [
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "ix": 3
+              },
+              "o": {
+                "a": 0,
+                "k": 100,
+                "ix": 4
+              },
+              "w": {
+                "a": 0,
+                "k": 0,
+                "ix": 5
+              },
+              "lc": 1,
+              "lj": 1,
+              "ml": 4,
+              "bm": 0,
+              "nm": "Stroke 1",
+              "mn": "ADBE Vector Graphic - Stroke",
+              "hd": false
+            },
+            {
+              "ty": "fl",
+              "c": {
+                "a": 0,
+                "k": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "ix": 4
+              },
+              "o": {
+                "a": 0,
+                "k": 100,
+                "ix": 5
+              },
+              "r": 1,
+              "bm": 0,
+              "nm": "Fill 1",
+              "mn": "ADBE Vector Graphic - Fill",
+              "hd": false
+            },
+            {
+              "ty": "tr",
+              "p": {
+                "a": 0,
+                "k": [
+                  -130.974,
+                  -11.325
+                ],
+                "ix": 2
+              },
+              "a": {
+                "a": 0,
+                "k": [
+                  0,
+                  0
+                ],
+                "ix": 1
+              },
+              "s": {
+                "a": 0,
+                "k": [
+                  100,
+                  100
+                ],
+                "ix": 3
+              },
+              "r": {
+                "a": 0,
+                "k": 0,
+                "ix": 6
+              },
+              "o": {
+                "a": 0,
+                "k": 100,
+                "ix": 7
+              },
+              "sk": {
+                "a": 0,
+                "k": 0,
+                "ix": 4
+              },
+              "sa": {
+                "a": 0,
+                "k": 0,
+                "ix": 5
+              },
+              "nm": "Transform"
+            }
+          ],
+          "nm": "Rectangle 1",
+          "np": 3,
+          "cix": 2,
+          "bm": 0,
+          "ix": 1,
+          "mn": "ADBE Vector Group",
+          "hd": false
+        }
+      ],
+      "ip": 86.0000035028518,
+      "op": 142.000005783779,
+      "st": 55.0000022401959,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 3,
+      "ty": 4,
+      "nm": "Blinker 4",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 1,
+          "k": [
+            {
+              "i": {
+                "x": [
+                  0.833
+                ],
+                "y": [
+                  0.833
+                ]
+              },
+              "o": {
+                "x": [
+                  0.167
+                ],
+                "y": [
+                  0.167
+                ]
+              },
+              "t": 32,
+              "s": [
+                0
+              ]
+            },
+            {
+              "i": {
+                "x": [
+                  0.833
+                ],
+                "y": [
+                  0.833
+                ]
+              },
+              "o": {
+                "x": [
+                  0.167
+                ],
+                "y": [
+                  0.167
+                ]
+              },
+              "t": 37,
+              "s": [
+                100
+              ]
+            },
+            {
+              "i": {
+                "x": [
+                  0.833
+                ],
+                "y": [
+                  0.833
+                ]
+              },
+              "o": {
+                "x": [
+                  0.167
+                ],
+                "y": [
+                  0.167
+                ]
+              },
+              "t": 42,
+              "s": [
+                0
+              ]
+            },
+            {
+              "i": {
+                "x": [
+                  0.833
+                ],
+                "y": [
+                  0.833
+                ]
+              },
+              "o": {
+                "x": [
+                  0.167
+                ],
+                "y": [
+                  0.167
+                ]
+              },
+              "t": 47,
+              "s": [
+                100
+              ]
+            },
+            {
+              "i": {
+                "x": [
+                  0.833
+                ],
+                "y": [
+                  0.833
+                ]
+              },
+              "o": {
+                "x": [
+                  0.167
+                ],
+                "y": [
+                  0.167
+                ]
+              },
+              "t": 72,
+              "s": [
+                100
+              ]
+            },
+            {
+              "i": {
+                "x": [
+                  0.833
+                ],
+                "y": [
+                  0.833
+                ]
+              },
+              "o": {
+                "x": [
+                  0.167
+                ],
+                "y": [
+                  0.167
+                ]
+              },
+              "t": 77,
+              "s": [
+                0
+              ]
+            },
+            {
+              "i": {
+                "x": [
+                  0.833
+                ],
+                "y": [
+                  0.833
+                ]
+              },
+              "o": {
+                "x": [
+                  0.167
+                ],
+                "y": [
+                  0.167
+                ]
+              },
+              "t": 82,
+              "s": [
+                100
+              ]
+            },
+            {
+              "t": 87.0000035435826,
+              "s": [
+                0
+              ]
+            }
+          ],
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 1,
+          "k": [
+            {
+              "i": {
+                "x": 0.833,
+                "y": 0.833
+              },
+              "o": {
+                "x": 0.167,
+                "y": 0.167
+              },
+              "t": 52,
+              "s": [
+                250,
+                250,
+                0
+              ],
+              "to": [
+                16.792,
+                0,
+                0
+              ],
+              "ti": [
+                -16.792,
+                0,
+                0
+              ]
+            },
+            {
+              "t": 72.0000029326201,
+              "s": [
+                350.75,
+                250,
+                0
+              ]
+            }
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            0,
+            0,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "shapes": [
+        {
+          "ty": "gr",
+          "it": [
+            {
+              "ty": "rc",
+              "d": 1,
+              "s": {
+                "a": 0,
+                "k": [
+                  1.553,
+                  20.85
+                ],
+                "ix": 2
+              },
+              "p": {
+                "a": 0,
+                "k": [
+                  0,
+                  0
+                ],
+                "ix": 3
+              },
+              "r": {
+                "a": 0,
+                "k": 0,
+                "ix": 4
+              },
+              "nm": "Rectangle Path 1",
+              "mn": "ADBE Vector Shape - Rect",
+              "hd": false
+            },
+            {
+              "ty": "st",
+              "c": {
+                "a": 0,
+                "k": [
+                  1,
+                  1,
+                  1,
+                  1
+                ],
+                "ix": 3
+              },
+              "o": {
+                "a": 0,
+                "k": 100,
+                "ix": 4
+              },
+              "w": {
+                "a": 0,
+                "k": 0,
+                "ix": 5
+              },
+              "lc": 1,
+              "lj": 1,
+              "ml": 4,
+              "bm": 0,
+              "nm": "Stroke 1",
+              "mn": "ADBE Vector Graphic - Stroke",
+              "hd": false
+            },
+            {
+              "ty": "fl",
+              "c": {
+                "a": 0,
+                "k": [
+                  0,
+                  0,
+                  0,
+                  1
+                ],
+                "ix": 4
+              },
+              "o": {
+                "a": 0,
+                "k": 100,
+                "ix": 5
+              },
+              "r": 1,
+              "bm": 0,
+              "nm": "Fill 1",
+              "mn": "ADBE Vector Graphic - Fill",
+              "hd": false
+            },
+            {
+              "ty": "tr",
+              "p": {
+                "a": 0,
+                "k": [
+                  -130.974,
+                  -11.325
+                ],
+                "ix": 2
+              },
+              "a": {
+                "a": 0,
+                "k": [
+                  0,
+                  0
+                ],
+                "ix": 1
+              },
+              "s": {
+                "a": 0,
+                "k": [
+                  100,
+                  100
+                ],
+                "ix": 3
+              },
+              "r": {
+                "a": 0,
+                "k": 0,
+                "ix": 6
+              },
+              "o": {
+                "a": 0,
+                "k": 100,
+                "ix": 7
+              },
+              "sk": {
+                "a": 0,
+                "k": 0,
+                "ix": 4
+              },
+              "sa": {
+                "a": 0,
+                "k": 0,
+                "ix": 5
+              },
+              "nm": "Transform"
+            }
+          ],
+          "nm": "Rectangle 1",
+          "np": 3,
+          "cix": 2,
+          "bm": 0,
+          "ix": 1,
+          "mn": "ADBE Vector Group",
+          "hd": false
+        }
+      ],
+      "ip": 0,
+      "op": 87.0000035435826,
+      "st": 0,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 5,
+      "ty": 2,
+      "nm": "Comida Italiana 2",
+      "refId": "image_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            176.512,
+            239.116,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            53.448,
+            9.832,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "hasMask": true,
+      "masksProperties": [
+        {
+          "inv": false,
+          "mode": "a",
+          "pt": {
+            "a": 1,
+            "k": [
+              {
+                "i": {
+                  "x": 0.833,
+                  "y": 0.833
+                },
+                "o": {
+                  "x": 0.167,
+                  "y": 0.167
+                },
+                "t": 107,
+                "s": [
+                  {
+                    "i": [
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ]
+                    ],
+                    "o": [
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ]
+                    ],
+                    "v": [
+                      [
+                        -0.551,
+                        -0.784
+                      ],
+                      [
+                        -0.564,
+                        -0.784
+                      ],
+                      [
+                        -0.564,
+                        20.049
+                      ],
+                      [
+                        -0.301,
+                        20.133
+                      ]
+                    ],
+                    "c": true
+                  }
+                ]
+              },
+              {
+                "t": 127.000005172816,
+                "s": [
+                  {
+                    "i": [
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ]
+                    ],
+                    "o": [
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ]
+                    ],
+                    "v": [
+                      [
+                        108.449,
+                        -0.784
+                      ],
+                      [
+                        -0.564,
+                        -0.784
+                      ],
+                      [
+                        -0.564,
+                        20.049
+                      ],
+                      [
+                        108.449,
+                        20.049
+                      ]
+                    ],
+                    "c": true
+                  }
+                ]
+              }
+            ],
+            "ix": 1
+          },
+          "o": {
+            "a": 0,
+            "k": 100,
+            "ix": 3
+          },
+          "x": {
+            "a": 0,
+            "k": 0,
+            "ix": 4
+          },
+          "nm": "Mask 1"
+        }
+      ],
+      "ip": 88.0000035843135,
+      "op": 142.000005783779,
+      "st": 1.00000004073083,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 6,
+      "ty": 2,
+      "nm": "iphone 2",
+      "refId": "image_1",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            169.393,
+            238.748,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            46.584,
+            9.832,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "hasMask": true,
+      "masksProperties": [
+        {
+          "inv": false,
+          "mode": "a",
+          "pt": {
+            "a": 1,
+            "k": [
+              {
+                "i": {
+                  "x": 0.833,
+                  "y": 0.833
+                },
+                "o": {
+                  "x": 0.167,
+                  "y": 0.167
+                },
+                "t": 52,
+                "s": [
+                  {
+                    "i": [
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ]
+                    ],
+                    "o": [
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ]
+                    ],
+                    "v": [
+                      [
+                        -0.769,
+                        -0.666
+                      ],
+                      [
+                        -0.559,
+                        -0.666
+                      ],
+                      [
+                        -0.559,
+                        20.314
+                      ],
+                      [
+                        -0.519,
+                        20.294
+                      ]
+                    ],
+                    "c": true
+                  }
+                ]
+              },
+              {
+                "t": 72.0000029326201,
+                "s": [
+                  {
+                    "i": [
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ]
+                    ],
+                    "o": [
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ]
+                    ],
+                    "v": [
+                      [
+                        94.481,
+                        -0.666
+                      ],
+                      [
+                        -0.559,
+                        -0.666
+                      ],
+                      [
+                        -0.559,
+                        20.314
+                      ],
+                      [
+                        94.481,
+                        20.314
+                      ]
+                    ],
+                    "c": true
+                  }
+                ]
+              }
+            ],
+            "ix": 1
+          },
+          "o": {
+            "a": 0,
+            "k": 100,
+            "ix": 3
+          },
+          "x": {
+            "a": 0,
+            "k": 0,
+            "ix": 4
+          },
+          "nm": "Mask 1"
+        }
+      ],
+      "ip": 32.0000013033867,
+      "op": 87.0000035435826,
+      "st": 32.0000013033867,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 7,
+      "ty": 2,
+      "nm": "Black Icon 2",
+      "refId": "image_2",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            104.199,
+            237.199,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            6.949,
+            6.949,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6,
+          "x": "var $bm_rt;\nvar result;\nresult = getAnimationComposerPresetValue();\nfunction getAnimationComposerPresetValue() {\n    var bL = thisLayer;\n    var tTrI = null;\n    var tTrO = null;\n    if (bL.marker.numKeys > 0) {\n        var acmp = 'zzzzzzzzzzzzzzz_AC';\n        for (var i = 1; i <= bL.marker.numKeys; i++) {\n            var m = bL.marker.key(i);\n            var p = m.parameters;\n            if (p.hasOwnProperty(acmp + 'MarkerEnabled') && p.hasOwnProperty(acmp + 'MarkerType') && p.hasOwnProperty(acmp + 'MarkerAppPresetType')) {\n                if (p[acmp + 'MarkerEnabled'] != '1') {\n                    continue;\n                }\n                switch (p[acmp + 'MarkerAppPresetType']) {\n                case '1': {\n                        tTrI = m.time;\n                        break;\n                    }\n                }\n            }\n        }\n    }\n    ;\n    function acPD(fxN) {\n        try {\n            if (bL.effect(fxN).active === false) {\n                ac.en = false;\n            }\n        } catch (e) {\n        }\n    }\n    function acSliderValP(fxN, stN, dV) {\n        try {\n            return bL.effect(fxN)(stN);\n        } catch (e) {\n            return dV;\n        }\n    }\n    function acValMul(val) {\n        acAccM *= val;\n    }\n    function mhOvershoot(t, a, f, d) {\n        if (d <= 0) {\n            d = 0;\n        }\n        var y = $bm_div($bm_mul(a, Math.cos($bm_mul($bm_mul($bm_mul(t, f), Math.PI), 2))), Math.exp($bm_mul(t, d)));\n        if (t < 0.8) {\n            return y;\n        }\n        return $bm_mul(y, $bm_sub(1, $bm_div($bm_sub(t, 0.8), 0.2)));\n    }\n    function upACo(tIn, dIn, tOut, dOut, eFi, eFo) {\n        if (dIn < 0) {\n            dIn = 0;\n        }\n        if (dOut < 0) {\n            dOut = 0;\n        }\n        ac.fade = 1;\n        if (t < tOut) {\n            if (t < $bm_sum(tIn, dIn)) {\n                if (dIn == 0) {\n                    ac.fade = 0;\n                } else {\n                    ac.fade = $bm_div($bm_sub(t, tIn), dIn);\n                    if (ac.fade < 0) {\n                        ac.fade = 0;\n                    }\n                    if (ac.fade > 1) {\n                        ac.fade = 1;\n                    }\n                    if (eFi) {\n                        ac.fade = eFi(ac.fade);\n                    }\n                }\n            }\n        } else {\n            if (dOut == 0) {\n                ac.fade = 0;\n            } else {\n                ac.fade = $bm_div($bm_sub(t, tOut), dOut);\n                if (ac.fade < 0) {\n                    ac.fade = 0;\n                }\n                if (ac.fade > 1) {\n                    ac.fade = 1;\n                }\n                if (eFo) {\n                    ac.fade = eFo(ac.fade);\n                }\n                ac.fade = $bm_sub(1, ac.fade);\n            }\n        }\n        ac.intensity = 1;\n        ac.en = true;\n        ac.t = $bm_sub(t, tIn);\n    }\n    var ac = {};\n    ac.en = false;\n    var v = thisProperty.value;\n    var t = time;\n    var acAccM = 1;\n    ac.en = false;\n    if (tTrI !== null && t < tTrI) {\n        upACo(bL.inPoint, $bm_sub(tTrI, bL.inPoint), bL.outPoint, 0);\n        ac.fade = $bm_sub(1, ac.fade);\n    }\n    acPD('AC IN [NWX] Controls');\n    if (ac.en) {\n        acValMul($bm_sub(1, $bm_mul(mhOvershoot($bm_sub(1, ac.fade), 1, acSliderValP('AC IN [NWX] Controls', 'Number of bounces', 2), 7), $bm_sum($bm_div(acSliderValP('AC IN [NWX] Controls', 'Scale', 0), -100), 1))));\n    }\n    v = thisProperty.value;\n    v *= acAccM;\n    return v;\n}\n$bm_rt = result;"
+        }
+      },
+      "ao": 0,
+      "ef": [
+        {
+          "ty": 5,
+          "nm": "AC IN [NWX] Controls",
+          "np": 4,
+          "mn": "Pseudo/MHAC PrCtrl NWX 4",
+          "ix": 1,
+          "en": 1,
+          "ef": [
+            {
+              "ty": 0,
+              "nm": "Number of bounces",
+              "mn": "Pseudo/MHAC PrCtrl NWX 4-0001",
+              "ix": 1,
+              "v": {
+                "a": 0,
+                "k": 2,
+                "ix": 1
+              }
+            },
+            {
+              "ty": 0,
+              "nm": "Scale",
+              "mn": "Pseudo/MHAC PrCtrl NWX 4-0002",
+              "ix": 2,
+              "v": {
+                "a": 0,
+                "k": 0,
+                "ix": 2
+              }
+            }
+          ]
+        }
+      ],
+      "ip": 32.0000013033867,
+      "op": 142.000005783779,
+      "st": 0,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 8,
+      "ty": 2,
+      "nm": "Busca 2",
+      "refId": "image_3",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            122.809,
+            238.916,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            0.716,
+            8.987,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "hasMask": true,
+      "masksProperties": [
+        {
+          "inv": false,
+          "mode": "a",
+          "pt": {
+            "a": 1,
+            "k": [
+              {
+                "i": {
+                  "x": 0.833,
+                  "y": 0.833
+                },
+                "o": {
+                  "x": 0.167,
+                  "y": 0.167
+                },
+                "t": 162,
+                "s": [
+                  {
+                    "i": [
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ]
+                    ],
+                    "o": [
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ]
+                    ],
+                    "v": [
+                      [
+                        -0.492,
+                        -0.929
+                      ],
+                      [
+                        -0.593,
+                        -0.929
+                      ],
+                      [
+                        -0.593,
+                        18.054
+                      ],
+                      [
+                        -0.742,
+                        18.036
+                      ]
+                    ],
+                    "c": true
+                  }
+                ]
+              },
+              {
+                "t": 182.000007413012,
+                "s": [
+                  {
+                    "i": [
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ]
+                    ],
+                    "o": [
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        0
+                      ]
+                    ],
+                    "v": [
+                      [
+                        124.258,
+                        -0.929
+                      ],
+                      [
+                        -0.593,
+                        -0.929
+                      ],
+                      [
+                        -0.593,
+                        18.054
+                      ],
+                      [
+                        124.258,
+                        18.054
+                      ]
+                    ],
+                    "c": true
+                  }
+                ]
+              }
+            ],
+            "ix": 1
+          },
+          "o": {
+            "a": 0,
+            "k": 100,
+            "ix": 3
+          },
+          "x": {
+            "a": 0,
+            "k": 0,
+            "ix": 4
+          },
+          "nm": "Mask 1"
+        }
+      ],
+      "ip": 142.000005783779,
+      "op": 240.0000097754,
+      "st": 142.000005783779,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 9,
+      "ty": 2,
+      "nm": "Gray Icon 2",
+      "refId": "image_4",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            104.199,
+            237.199,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            6.949,
+            6.949,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6,
+          "x": "var $bm_rt;\nvar result;\nresult = getAnimationComposerPresetValue();\nfunction getAnimationComposerPresetValue() {\n    var bL = thisLayer;\n    var tTrI = null;\n    var tTrO = null;\n    if (bL.marker.numKeys > 0) {\n        var acmp = 'zzzzzzzzzzzzzzz_AC';\n        for (var i = 1; i <= bL.marker.numKeys; i++) {\n            var m = bL.marker.key(i);\n            var p = m.parameters;\n            if (p.hasOwnProperty(acmp + 'MarkerEnabled') && p.hasOwnProperty(acmp + 'MarkerType') && p.hasOwnProperty(acmp + 'MarkerAppPresetType')) {\n                if (p[acmp + 'MarkerEnabled'] != '1') {\n                    continue;\n                }\n                switch (p[acmp + 'MarkerAppPresetType']) {\n                case '1': {\n                        tTrI = m.time;\n                        break;\n                    }\n                }\n            }\n        }\n    }\n    ;\n    function acPD(fxN) {\n        try {\n            if (bL.effect(fxN).active === false) {\n                ac.en = false;\n            }\n        } catch (e) {\n        }\n    }\n    function acSliderValP(fxN, stN, dV) {\n        try {\n            return bL.effect(fxN)(stN);\n        } catch (e) {\n            return dV;\n        }\n    }\n    function acValMul(val) {\n        acAccM *= val;\n    }\n    function mhOvershoot(t, a, f, d) {\n        if (d <= 0) {\n            d = 0;\n        }\n        var y = $bm_div($bm_mul(a, Math.cos($bm_mul($bm_mul($bm_mul(t, f), Math.PI), 2))), Math.exp($bm_mul(t, d)));\n        if (t < 0.8) {\n            return y;\n        }\n        return $bm_mul(y, $bm_sub(1, $bm_div($bm_sub(t, 0.8), 0.2)));\n    }\n    function upACo(tIn, dIn, tOut, dOut, eFi, eFo) {\n        if (dIn < 0) {\n            dIn = 0;\n        }\n        if (dOut < 0) {\n            dOut = 0;\n        }\n        ac.fade = 1;\n        if (t < tOut) {\n            if (t < $bm_sum(tIn, dIn)) {\n                if (dIn == 0) {\n                    ac.fade = 0;\n                } else {\n                    ac.fade = $bm_div($bm_sub(t, tIn), dIn);\n                    if (ac.fade < 0) {\n                        ac.fade = 0;\n                    }\n                    if (ac.fade > 1) {\n                        ac.fade = 1;\n                    }\n                    if (eFi) {\n                        ac.fade = eFi(ac.fade);\n                    }\n                }\n            }\n        } else {\n            if (dOut == 0) {\n                ac.fade = 0;\n            } else {\n                ac.fade = $bm_div($bm_sub(t, tOut), dOut);\n                if (ac.fade < 0) {\n                    ac.fade = 0;\n                }\n                if (ac.fade > 1) {\n                    ac.fade = 1;\n                }\n                if (eFo) {\n                    ac.fade = eFo(ac.fade);\n                }\n                ac.fade = $bm_sub(1, ac.fade);\n            }\n        }\n        ac.intensity = 1;\n        ac.en = true;\n        ac.t = $bm_sub(t, tIn);\n    }\n    var ac = {};\n    ac.en = false;\n    var v = thisProperty.value;\n    var t = time;\n    var acAccM = 1;\n    ac.en = false;\n    if (tTrI !== null && t < tTrI) {\n        upACo(bL.inPoint, $bm_sub(tTrI, bL.inPoint), bL.outPoint, 0);\n        ac.fade = $bm_sub(1, ac.fade);\n    }\n    acPD('AC IN [NWX] Controls');\n    if (ac.en) {\n        acValMul($bm_sub(1, $bm_mul(mhOvershoot($bm_sub(1, ac.fade), 1, acSliderValP('AC IN [NWX] Controls', 'Number of bounces', 2), 7), $bm_sum($bm_div(acSliderValP('AC IN [NWX] Controls', 'Scale', 0), -100), 1))));\n    }\n    v = thisProperty.value;\n    v *= acAccM;\n    return v;\n}\n$bm_rt = result;"
+        }
+      },
+      "ao": 0,
+      "ef": [
+        {
+          "ty": 5,
+          "nm": "AC IN [NWX] Controls",
+          "np": 4,
+          "mn": "Pseudo/MHAC PrCtrl NWX 4",
+          "ix": 1,
+          "en": 1,
+          "ef": [
+            {
+              "ty": 0,
+              "nm": "Number of bounces",
+              "mn": "Pseudo/MHAC PrCtrl NWX 4-0001",
+              "ix": 1,
+              "v": {
+                "a": 0,
+                "k": 2,
+                "ix": 1
+              }
+            },
+            {
+              "ty": 0,
+              "nm": "Scale",
+              "mn": "Pseudo/MHAC PrCtrl NWX 4-0002",
+              "ix": 2,
+              "v": {
+                "a": 0,
+                "k": 0,
+                "ix": 2
+              }
+            }
+          ]
+        }
+      ],
+      "ip": 142.000005783779,
+      "op": 240.0000097754,
+      "st": 142.000005783779,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 10,
+      "ty": 2,
+      "nm": "Background 2",
+      "refId": "image_5",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 0,
+          "k": 0,
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            256.667,
+            237.667,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            172,
+            23,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6
+        }
+      },
+      "ao": 0,
+      "ip": 32.0000013033867,
+      "op": 240.0000097754,
+      "st": 0,
+      "bm": 0
+    },
+    {
+      "ddd": 0,
+      "ind": 11,
+      "ty": 0,
+      "nm": "Barra Busqueda",
+      "refId": "comp_0",
+      "sr": 1,
+      "ks": {
+        "o": {
+          "a": 0,
+          "k": 100,
+          "ix": 11
+        },
+        "r": {
+          "a": 1,
+          "k": [
+            {
+              "i": {
+                "x": [
+                  0
+                ],
+                "y": [
+                  0.872
+                ]
+              },
+              "o": {
+                "x": [
+                  0.333
+                ],
+                "y": [
+                  0
+                ]
+              },
+              "t": 2,
+              "s": [
+                0
+              ]
+            },
+            {
+              "i": {
+                "x": [
+                  0.667
+                ],
+                "y": [
+                  1
+                ]
+              },
+              "o": {
+                "x": [
+                  0.333
+                ],
+                "y": [
+                  0
+                ]
+              },
+              "t": 5,
+              "s": [
+                5
+              ]
+            },
+            {
+              "i": {
+                "x": [
+                  0
+                ],
+                "y": [
+                  0.893
+                ]
+              },
+              "o": {
+                "x": [
+                  0.333
+                ],
+                "y": [
+                  0
+                ]
+              },
+              "t": 10,
+              "s": [
+                -5
+              ]
+            },
+            {
+              "i": {
+                "x": [
+                  0.833
+                ],
+                "y": [
+                  1
+                ]
+              },
+              "o": {
+                "x": [
+                  0.167
+                ],
+                "y": [
+                  0
+                ]
+              },
+              "t": 15,
+              "s": [
+                5
+              ]
+            },
+            {
+              "t": 20.0000008146167,
+              "s": [
+                0
+              ]
+            }
+          ],
+          "ix": 10
+        },
+        "p": {
+          "a": 0,
+          "k": [
+            250,
+            250,
+            0
+          ],
+          "ix": 2
+        },
+        "a": {
+          "a": 0,
+          "k": [
+            250,
+            250,
+            0
+          ],
+          "ix": 1
+        },
+        "s": {
+          "a": 0,
+          "k": [
+            100,
+            100,
+            100
+          ],
+          "ix": 6,
+          "x": "var $bm_rt;\nvar result;\nresult = getAnimationComposerPresetValue();\nfunction getAnimationComposerPresetValue() {\n    var easeType;\n    var bL = thisLayer;\n    var mTs = {};\n    function setPrT(pc, mty, mt, md, et) {\n        var tO = {};\n        tO.t = mt;\n        tO.d = md;\n        tO.ef = et;\n        mTs[pc + '#' + mty] = tO;\n    }\n    function getFxPrT(prC, mTy) {\n        if (mTs.hasOwnProperty(prC + '#' + mTy)) {\n            return mTs[$bm_sum($bm_sum(prC, '#'), mTy)];\n        }\n        var tO = {};\n        if (mTy == 1) {\n            tO.t = bL.inPoint;\n        } else {\n            tO.t = bL.outPoint;\n        }\n        tO.d = 0;\n        tO.ef = null;\n        return tO;\n    }\n    if (bL.marker.numKeys > 0) {\n        var acmp = 'zzzzzzzzzzzzzzz_AC';\n        for (var i = 1; i <= bL.marker.numKeys; i++) {\n            var m = bL.marker.key(i);\n            var p = m.parameters;\n            if (p.hasOwnProperty(acmp + 'MarkerEnabled') && p.hasOwnProperty(acmp + 'MarkerType') && p.hasOwnProperty(acmp + 'MarkerAppPresetType')) {\n                if (p[acmp + 'MarkerEnabled'] != '1') {\n                    continue;\n                }\n                switch (p[acmp + 'MarkerAppPresetType']) {\n                case '3': {\n                        var mTy = p[acmp + 'MarkerType'];\n                        var prC = p[acmp + 'MarkerPresetCode'];\n                        var eTy = null;\n                        if (p.hasOwnProperty(acmp + 'MarkerEase')) {\n                            easeType = p[acmp + 'MarkerEase'];\n                        }\n                        setPrT(prC, mTy, m.time, m.duration, eTy);\n                        break;\n                    }\n                }\n            }\n        }\n    }\n    ;\n    function acPointValP(fxN, stN, dV) {\n        try {\n            return bL.effect(fxN)(stN);\n        } catch (e) {\n            return dV;\n        }\n    }\n    function acSliderValP(fxN, stN, dV) {\n        try {\n            return bL.effect(fxN)(stN);\n        } catch (e) {\n            return dV;\n        }\n    }\n    function acValAdd(val) {\n        acAccA = $bm_sum(acAccA, val);\n    }\n    function easeInCubic(t) {\n        return $bm_mul($bm_mul(t, t), t);\n    }\n    function easeInExpo(t) {\n        var y = easeInExpoOrig(t);\n        if (t > 0.3) {\n            return y;\n        }\n        var d = $bm_sub(1, easeInExpoOrig($bm_sub(1, $bm_div(t, 0.3))));\n        return $bm_mul($bm_mul(y, d), d);\n    }\n    function easeInExpoOrig(t) {\n        return Math.pow(2, $bm_mul(10, $bm_sub(t, 1)));\n    }\n    function easeInOutExpo(t) {\n        return t < 0.5 ? easeInExpo(t * 2) * 0.5 : easeOutExpo(t * 2 - 1) * 0.5 + 0.5;\n    }\n    function easeOutExpo(t) {\n        return $bm_sub(1, easeInExpo($bm_sub(1, t)));\n    }\n    function upACo(tIn, dIn, tOut, dOut, eFi, eFo) {\n        if (dIn < 0) {\n            dIn = 0;\n        }\n        if (dOut < 0) {\n            dOut = 0;\n        }\n        ac.fade = 1;\n        if (t < tOut) {\n            if (t < $bm_sum(tIn, dIn)) {\n                if (dIn == 0) {\n                    ac.fade = 0;\n                } else {\n                    ac.fade = $bm_div($bm_sub(t, tIn), dIn);\n                    if (ac.fade < 0) {\n                        ac.fade = 0;\n                    }\n                    if (ac.fade > 1) {\n                        ac.fade = 1;\n                    }\n                    if (eFi) {\n                        ac.fade = eFi(ac.fade);\n                    }\n                }\n            }\n        } else {\n            if (dOut == 0) {\n                ac.fade = 0;\n            } else {\n                ac.fade = $bm_div($bm_sub(t, tOut), dOut);\n                if (ac.fade < 0) {\n                    ac.fade = 0;\n                }\n                if (ac.fade > 1) {\n                    ac.fade = 1;\n                }\n                if (eFo) {\n                    ac.fade = eFo(ac.fade);\n                }\n                ac.fade = $bm_sub(1, ac.fade);\n            }\n        }\n        ac.intensity = 1;\n        ac.en = true;\n        ac.t = $bm_sub(t, tIn);\n    }\n    function upACoFx(prC) {\n        var inO = getFxPrT(prC, 1);\n        var outO = getFxPrT(prC, 2);\n        upACo(inO.t, inO.d, outO.t, outO.d, getEF(inO.ef), getEF(outO.ef));\n    }\n    var ac = {};\n    ac.en = false;\n    var v = thisProperty.value;\n    var t = time;\n    var acAccA = 0;\n    function getEF(et) {\n        switch (et) {\n        case 7: {\n                return easeInCubic;\n            }\n        case 18: {\n                return easeInOutExpo;\n            }\n        }\n        return null;\n    }\n    upACoFx('UDB#3#1');\n    if (ac.en) {\n        ac.intensity = $bm_div(acSliderValP('AC FX [UDB] Controls', 'Intensity', 100), 100);\n    }\n    if (ac.en) {\n        acValAdd($bm_mul($bm_mul($bm_mul(acPointValP('AC FX [UDB] Controls', 'Scaling Speed XY', [\n            20,\n            20\n        ]), ac.t), ac.intensity), ac.fade));\n    }\n    v = thisProperty.value;\n    v = $bm_sum(v, acAccA);\n    return v;\n}\n$bm_rt = result;"
+        }
+      },
+      "ao": 0,
+      "ef": [
+        {
+          "ty": 5,
+          "nm": "AC FX [UDB] Controls",
+          "np": 4,
+          "mn": "Pseudo/MHAC PrCtrl UDB 2",
+          "ix": 1,
+          "en": 1,
+          "ef": [
+            {
+              "ty": 0,
+              "nm": "Intensity",
+              "mn": "Pseudo/MHAC PrCtrl UDB 2-0001",
+              "ix": 1,
+              "v": {
+                "a": 0,
+                "k": 100,
+                "ix": 1
+              }
+            },
+            {
+              "ty": 3,
+              "nm": "Scaling Speed XY",
+              "mn": "Pseudo/MHAC PrCtrl UDB 2-0002",
+              "ix": 2,
+              "v": {
+                "a": 0,
+                "k": [
+                  20,
+                  20
+                ],
+                "ix": 2
+              }
+            }
+          ]
+        }
+      ],
+      "w": 500,
+      "h": 500,
+      "ip": 0,
+      "op": 32.0000013033867,
+      "st": 0,
+      "bm": 0
+    }
+  ],
+  "markers": []
+}
