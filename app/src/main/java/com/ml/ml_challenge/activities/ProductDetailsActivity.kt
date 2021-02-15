@@ -1,10 +1,13 @@
 package com.ml.ml_challenge.activities
 
+import android.content.res.Resources
 import android.graphics.Bitmap
 import android.net.Uri
 import android.os.Bundle
+import android.util.TypedValue
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
 import androidx.viewpager2.widget.ViewPager2.OnPageChangeCallback
 import com.facebook.common.executors.CallerThreadExecutor
 import com.facebook.common.references.CloseableReference
@@ -69,25 +72,32 @@ class ProductDetailsActivity : AppCompatActivity() {
 
             if (productSelected.shipping.freeShipping) {
                 shipping_title.text = getString(R.string.free_shepping_text)
+                shipping_title.setTextColor(ContextCompat.getColor(this@ProductDetailsActivity, R.color.green_light))
+                shipping_icon.backgroundTintList = ContextCompat.getColorStateList(this@ProductDetailsActivity, R.color.green_light)
             } else {
-                shipping_title.text = getString(R.string.shepping_text)
+                shipping_title.text = getString(R.string.in_progress)
                 shipping_desc.visibility = View.GONE
             }
 
             productSelected.seller?.let { seller ->
+                if (seller.eshop == null) {
+                    store_name.text = getString(R.string.in_progress)
+                }
+
                 seller.eshop?.let {
                     eshop_information.visibility = View.VISIBLE
                     seller_information.visibility = View.GONE
 
                     store_name.text = getString(R.string.official_store_text, it.nickName)
-                    eshop_name.text =  it.nickName
+                    eshop_name.text = it.nickName
 
                     val imageRequest = ImageRequestBuilder
                         .newBuilderWithSource(Uri.parse(it.eshopLogoUrl))
                         .build()
 
                     val imagePipeline = Fresco.getImagePipeline()
-                    val dataSource = imagePipeline.fetchDecodedImage(imageRequest, this@ProductDetailsActivity)
+                    val dataSource =
+                        imagePipeline.fetchDecodedImage(imageRequest, this@ProductDetailsActivity)
                     dataSource.subscribe(
                         object : BaseBitmapDataSubscriber() {
                             override fun onNewResultImpl(bitmap: Bitmap?) {
@@ -109,7 +119,7 @@ class ProductDetailsActivity : AppCompatActivity() {
                 if (seller.reputation.metrics.sales.period == SIXTY_SALES_PERIOD_ID) {
                     seller_sales_desc.text =
                         getString(R.string.last_days_sales, 60)
-                }else{
+                } else {
                     seller_sales_desc.text =
                         getString(R.string.last_days_sales, 365)
                 }
@@ -118,6 +128,8 @@ class ProductDetailsActivity : AppCompatActivity() {
                     delayed_handling_time_desc.text =
                         getString(R.string.not_ship_your_products_on_time)
                 }
+
+                setSellerLevel(seller.reputation.levelId)
 
             }
 
@@ -173,11 +185,70 @@ class ProductDetailsActivity : AppCompatActivity() {
                             )
                     }
                 })
+
             }
 
         }
 
     }
+
+    private fun setSellerLevel(levelId: String?) {
+        levelId?.let {
+            when (levelId) {
+                RED_LEVEL_ID -> {
+                    seller_reputation_level_1.layoutParams =
+                        (seller_reputation_level_1.layoutParams)
+                            .also { lp ->
+                                lp.height = dpToPixels(12f).roundToInt()
+                            }
+                    seller_reputation_level_1.alpha = 1f
+                }
+                ORANGE_LEVEL_ID -> {
+                    seller_reputation_level_2.layoutParams =
+                        (seller_reputation_level_2.layoutParams)
+                            .also { lp ->
+                                lp.height = dpToPixels(12f).roundToInt()
+                            }
+                    seller_reputation_level_2.alpha = 1f
+                }
+                YELLOW_LEVEL_ID -> {
+                    seller_reputation_level_3.layoutParams =
+                        (seller_reputation_level_3.layoutParams)
+                            .also { lp ->
+                                lp.height = dpToPixels(12f).roundToInt()
+                            }
+                    seller_reputation_level_3.alpha = 1f
+                }
+                LIGHT_GREEN_LEVEL_ID -> {
+                    seller_reputation_level_4.layoutParams =
+                        (seller_reputation_level_4.layoutParams)
+                            .also { lp ->
+                                lp.height = dpToPixels(12f).roundToInt()
+                            }
+                    seller_reputation_level_4.alpha = 1f
+                }
+                GREEN_LEVEL_ID -> {
+                    seller_reputation_level_5.layoutParams =
+                        (seller_reputation_level_5.layoutParams)
+                            .also { lp ->
+                                lp.height = dpToPixels(12f).roundToInt()
+                            }
+                    seller_reputation_level_5.alpha = 1f
+                }
+            }
+        }
+
+    }
+
+    private fun dpToPixels(dp: Float): Float {
+        val r: Resources = resources
+        return TypedValue.applyDimension(
+            TypedValue.COMPLEX_UNIT_DIP,
+            dp,
+            r.displayMetrics
+        )
+    }
+
 
     private fun getProductDetails(productId: String) = GlobalScope.async(Dispatchers.IO) {
         val response = RestUtils.get("https://api.mercadolibre.com/items?ids=${productId}")
@@ -223,6 +294,10 @@ class ProductDetailsActivity : AppCompatActivity() {
         const val STATE_NEW = "new"
         const val SALE_TERM_BILLING_ID = "INVOICE"
         const val SIXTY_SALES_PERIOD_ID = "60 days"
-        const val SALES_PERIOD_ID = "365 days"
+        const val ORANGE_LEVEL_ID = "2_orange"
+        const val GREEN_LEVEL_ID = "5_green"
+        const val LIGHT_GREEN_LEVEL_ID = "4_light_green"
+        const val YELLOW_LEVEL_ID = "3_yellow"
+        const val RED_LEVEL_ID = "1_red"
     }
 }

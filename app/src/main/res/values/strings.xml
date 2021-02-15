@@ -22,4 +22,5 @@
     <string name="ship_your_products_on_time">Despacha sus productos a tiempo</string>
     <string name="not_ship_your_products_on_time">No despacha sus productos a tiempo</string>
     <string name="attention_type">Brinda %2$s atención</string>
+    <string name="in_progress">in progress…</string>
 </resources>

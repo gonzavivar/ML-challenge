@@ -18,6 +18,15 @@
     <color name="gray_field_background">#efefef</color>
     <color name="gray_background">#f2f3f5</color>
     <color name="gray_border_favorite_icon">#E0E0E0</color>
+    <color name="red">#ff5252</color>
+    <color name="orange_light">#ffffbb33</color>
+    <color name="orange">#fece60</color>
+    <color name="yellow">#ffff00</color>
+    <color name="translucid_green_dark">#CC40DE58</color>
+    <color name="green_complete">#ff99cc00</color>
+    <color name="green_light">#ff99cc00</color>
+    <color name="green">#006200</color>
+
 
 
 </resources>

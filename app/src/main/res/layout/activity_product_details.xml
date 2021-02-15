@@ -112,7 +112,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/product_price" />
 
             <ImageView
-                android:id="@+id/free_shipping_icon"
+                android:id="@+id/shipping_icon"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
@@ -132,8 +132,8 @@
                 android:text="@string/free_shepping_text"
                 android:textColor="@color/black"
                 android:textSize="15sp"
-                app:layout_constraintStart_toEndOf="@+id/free_shipping_icon"
-                app:layout_constraintTop_toTopOf="@+id/free_shipping_icon" />
+                app:layout_constraintStart_toEndOf="@+id/shipping_icon"
+                app:layout_constraintTop_toTopOf="@+id/shipping_icon" />
 
             <TextView
                 android:id="@+id/shipping_desc"
@@ -153,7 +153,7 @@
                 android:text="@string/sold_by"
                 android:textColor="@color/black"
                 android:textSize="13sp"
-                app:layout_constraintStart_toStartOf="@+id/free_shipping_icon"
+                app:layout_constraintStart_toStartOf="@+id/shipping_icon"
                 app:layout_constraintTop_toBottomOf="@+id/shipping_desc" />
 
             <TextView
@@ -163,7 +163,7 @@
                 android:text="@string/billing"
                 android:textColor="@color/gray_text"
                 android:textSize="11sp"
-                app:layout_constraintStart_toStartOf="@+id/free_shipping_icon"
+                app:layout_constraintStart_toStartOf="@+id/shipping_icon"
                 app:layout_constraintTop_toBottomOf="@+id/store_name" />
 
             <TextView
@@ -175,7 +175,7 @@
                 android:textColor="@color/black"
                 android:textSize="15sp"
                 android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="@+id/free_shipping_icon"
+                app:layout_constraintStart_toStartOf="@+id/shipping_icon"
                 app:layout_constraintTop_toBottomOf="@+id/store_billing" />
 
             <TextView
@@ -190,7 +190,7 @@
                 android:textColor="@color/black"
                 android:textSize="15sp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="@+id/free_shipping_icon"
+                app:layout_constraintStart_toStartOf="@+id/shipping_icon"
                 app:layout_constraintTop_toBottomOf="@+id/stock_desc" />
 
             <ImageView
@@ -202,7 +202,7 @@
                 android:background="@drawable/ic_redeem_24px"
                 android:backgroundTint="@color/gray_text"
                 android:padding="12dp"
-                app:layout_constraintStart_toStartOf="@+id/free_shipping_icon"
+                app:layout_constraintStart_toStartOf="@+id/shipping_icon"
                 app:layout_constraintTop_toBottomOf="@+id/quantity_selector" />
 
             <TextView
@@ -259,7 +259,7 @@
                 android:text="Ubicación"
                 android:textColor="@color/black"
                 android:textSize="15sp"
-                app:layout_constraintStart_toEndOf="@+id/free_shipping_icon"
+                app:layout_constraintStart_toEndOf="@+id/shipping_icon"
                 app:layout_constraintTop_toTopOf="@+id/seller_address_icon" />
 
             <TextView
@@ -270,68 +270,75 @@
                 android:text="@string/seller_address"
                 android:textColor="@color/gray_text"
                 android:textSize="15sp"
-                app:layout_constraintStart_toEndOf="@+id/free_shipping_icon"
+                app:layout_constraintStart_toEndOf="@+id/shipping_icon"
                 app:layout_constraintTop_toBottomOf="@+id/seller_address_title" />
 
             <View
                 android:id="@+id/seller_reputation_level_1"
                 android:layout_width="0dp"
-                android:layout_height="10dp"
+                android:layout_height="8dp"
                 android:layout_marginTop="15dp"
                 android:layout_marginEnd="5dp"
-                android:background="@color/gray_background"
-                app:layout_constrainedWidth="true"
+                android:background="@color/red"
+                android:alpha="0.4"                app:layout_constrainedWidth="true"
                 app:layout_constraintEnd_toStartOf="@+id/seller_reputation_level_2"
                 app:layout_constraintStart_toStartOf="@+id/seller_address_icon"
-                app:layout_constraintTop_toBottomOf="@+id/seller_address" />
+                app:layout_constraintTop_toBottomOf="@+id/seller_address"
+
+                app:layout_constraintBottom_toTopOf="@+id/seller_sales"/>
+            <!---->
 
             <View
                 android:id="@+id/seller_reputation_level_2"
                 android:layout_width="0dp"
-                android:layout_height="10dp"
-                android:layout_marginTop="15dp"
+                android:layout_height="8dp"
                 android:layout_marginEnd="5dp"
-                android:background="@color/gray_background"
+                android:alpha="0.4"
+                android:background="@color/orange"
                 app:layout_constrainedWidth="true"
+                app:layout_constraintBottom_toBottomOf="@+id/seller_reputation_level_1"
                 app:layout_constraintEnd_toStartOf="@+id/seller_reputation_level_3"
                 app:layout_constraintStart_toEndOf="@+id/seller_reputation_level_1"
-                app:layout_constraintTop_toBottomOf="@+id/seller_address" />
+                app:layout_constraintTop_toTopOf="@+id/seller_reputation_level_1" />
 
             <View
                 android:id="@+id/seller_reputation_level_3"
                 android:layout_width="0dp"
-                android:layout_height="10dp"
-                android:layout_marginTop="15dp"
+                android:layout_height="8dp"
                 android:layout_marginEnd="5dp"
-                android:background="@color/gray_background"
+                android:alpha="0.4"
+                android:background="@color/yellow"
                 app:layout_constrainedWidth="true"
+                app:layout_constraintBottom_toBottomOf="@+id/seller_reputation_level_2"
                 app:layout_constraintEnd_toStartOf="@+id/seller_reputation_level_4"
                 app:layout_constraintStart_toEndOf="@+id/seller_reputation_level_2"
-                app:layout_constraintTop_toBottomOf="@+id/seller_address" />
+                app:layout_constraintTop_toTopOf="@+id/seller_reputation_level_2" />
 
             <View
                 android:id="@+id/seller_reputation_level_4"
                 android:layout_width="0dp"
-                android:layout_height="10dp"
-                android:layout_marginTop="15dp"
+                android:layout_height="8dp"
                 android:layout_marginEnd="5dp"
-                android:background="@color/gray_background"
+                android:alpha="0.4"
+                android:background="@color/green_complete"
                 app:layout_constrainedWidth="true"
+                app:layout_constraintBottom_toBottomOf="@+id/seller_reputation_level_3"
                 app:layout_constraintEnd_toStartOf="@+id/seller_reputation_level_5"
                 app:layout_constraintStart_toEndOf="@+id/seller_reputation_level_3"
-                app:layout_constraintTop_toBottomOf="@+id/seller_address" />
+                app:layout_constraintTop_toTopOf="@+id/seller_reputation_level_3" />
 
             <View
                 android:id="@+id/seller_reputation_level_5"
                 android:layout_width="0dp"
-                android:layout_height="10dp"
-                android:layout_marginTop="15dp"
+                android:layout_height="8dp"
                 android:layout_marginEnd="20dp"
-                android:background="@color/gray_background"
+                android:alpha="0.4"
+                android:background="@color/green"
                 app:layout_constrainedWidth="true"
+                app:layout_constraintBottom_toBottomOf="@+id/seller_reputation_level_4"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/seller_reputation_level_4"
-                app:layout_constraintTop_toBottomOf="@+id/seller_address" />
+                app:layout_constraintTop_toTopOf="@+id/seller_reputation_level_4" />
 
             <TextView
                 android:id="@+id/seller_sales"
@@ -458,9 +465,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
+                app:layout_constraintVertical_chainStyle="packed"
                 android:text="@string/installments_text"
                 android:textColor="@color/black"
                 android:textSize="17sp"
+                app:layout_constraintBottom_toTopOf="@+id/eshop_desc"
                 app:layout_constraintStart_toEndOf="@+id/eshop_picture"
                 app:layout_constraintTop_toTopOf="@+id/eshop_picture" />
 
@@ -508,11 +517,87 @@
                 android:textColor="@color/black"
                 android:textSize="16sp"
                 app:layout_constrainedWidth="true"
-                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="@+id/product_state"
                 app:layout_constraintTop_toBottomOf="@+id/product_description_title" />
+
+
+            <View
+                android:id="@+id/Q_and_A_divisor"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/gray_background"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/product_description" />
+
+            <TextView
+                android:id="@+id/Q_and_A_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Preguntas y Respuestas"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="@+id/product_state"
+                app:layout_constraintTop_toBottomOf="@+id/Q_and_A_divisor" />
+
+            <TextView
+                android:id="@+id/Q_and_A"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="30dp"
+                android:text="@string/in_progress"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                app:layout_constrainedWidth="true"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/product_state"
+                app:layout_constraintTop_toBottomOf="@+id/Q_and_A_title" />
+
+
+            <View
+                android:id="@+id/opinions_divisor"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/gray_background"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Q_and_A" />
+
+            <TextView
+                android:id="@+id/opinions_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Opiniones sobre el producto"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="@+id/product_state"
+                app:layout_constraintTop_toBottomOf="@+id/opinions_divisor" />
+
+            <TextView
+                android:id="@+id/opinions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="30dp"
+                android:text="@string/in_progress"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                app:layout_constrainedWidth="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/product_state"
+                app:layout_constraintTop_toBottomOf="@+id/opinions_title" />
 
             <androidx.constraintlayout.widget.Group
                 android:id="@+id/seller_information"
@@ -526,7 +611,7 @@
                 android:id="@+id/eshop_information"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:visibility="gone"
+                android:visibility="visible"
                 app:constraint_referenced_ids="store_information_title, store_information_divisor, eshop_picture
                 , eshop_name, eshop_desc" />
 
